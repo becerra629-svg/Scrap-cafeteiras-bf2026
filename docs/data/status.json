@@ -1,0 +1,36 @@
+{
+  "ultima_execucao_utc": "2026-10-26T22:10:01.448647+00:00",
+  "ultima_execucao_local": "26/10/2026 19:10",
+  "sites": {
+    "Mercado Livre": {
+      "anuncios": 0,
+      "erros": [
+        "Nespresso Essenza Mini: 0 resultados (título da página: 'Mercado Libre') — possível bloqueio ou seletor desatualizado",
+        "Nespresso Vertuo Pop: 0 resultados (título da página: 'Mercado Libre') — possível bloqueio ou seletor desatualizado",
+        "Dolce Gusto Mini Me: 0 resultados (título da página: 'Mercado Libre') — possível bloqueio ou seletor desatualizado"
+      ]
+    },
+    "Amazon": {
+      "anuncios": 34,
+      "erros": [
+        "Nespresso Essenza Mini: 0 resultados (título da página: 'Amazon.com.br Algo deu errado') — possível bloqueio ou seletor desatualizado"
+      ]
+    },
+    "Casas Bahia": {
+      "anuncios": 0,
+      "erros": [
+        "Nespresso Essenza Mini: 0 resultados (título da página: '') — possível bloqueio ou seletor desatualizado",
+        "Nespresso Vertuo Pop: 0 resultados (título da página: '') — possível bloqueio ou seletor desatualizado",
+        "Dolce Gusto Mini Me: 0 resultados (título da página: '') — possível bloqueio ou seletor desatualizado"
+      ]
+    },
+    "Magazine Luiza": {
+      "anuncios": 0,
+      "erros": [
+        "Nespresso Essenza Mini: 0 resultados (título da página: 'Magazine Luiza | Não é possível acessar a página') — possível bloqueio ou seletor desatualizado",
+        "Nespresso Vertuo Pop: 0 resultados (título da página: 'Magazine Luiza | Não é possível acessar a página') — possível bloqueio ou seletor desatualizado",
+        "Dolce Gusto Mini Me: 0 resultados (título da página: 'Magazine Luiza | Não é possível acessar a página') — possível bloqueio ou seletor desatualizado"
+      ]
+    }
+  }
+}
