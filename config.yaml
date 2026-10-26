@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------
+# Configuração do monitor de preços.
+# Regras de texto: escreva em minúsculas e SEM acentos
+# (o título do anúncio é normalizado antes de comparar).
+# ---------------------------------------------------------------
+
+# O GitHub roda o robô todo dia, mas ele só coleta se a última coleta
+# tiver mais de X horas (44h => na prática, a cada 2 dias).
+intervalo_minimo_horas: 44
+
+# Preços abaixo disso são ignorados (evita cápsulas e acessórios baratos).
+preco_minimo: 150
+
+sites: [mercadolivre, amazon, casasbahia, magalu]
+
+# Anúncios cujo título bater com algum destes padrões são descartados.
+excluir_global:
+  - '\b(capa|refil|filtro|descalcificante|reservatorio|suporte|bandeja|adaptador|pecas?|porta[- ]capsulas?)\b'
+  - '^\s*(kit\s*)?(\d+\s*)?capsulas?\b'
+
+# "buscas": o que será digitado na busca de cada site (pode ter várias).
+# "incluir": TODOS os padrões precisam aparecer no título do anúncio.
+produtos:
+  - nome: Nespresso Essenza Mini
+    buscas: ["Nespresso Essenza Mini"]
+    incluir: ['essenza\s*mini']
+
+  - nome: Nespresso Vertuo Pop
+    buscas: ["Nespresso Vertuo Pop"]
+    incluir: ['vertuo\s*pop']
+
+  - nome: Dolce Gusto Mini Me
+    buscas: ["Dolce Gusto Mini Me"]
+    incluir: ['mini\s*me\b', 'dolce|arno|nescafe']
+
+  - nome: Dolce Gusto Genius S Plus
+    buscas: ["Dolce Gusto Genius S Plus"]
+    incluir: ['genius\s*s\s*plus']
+
+  - nome: Três Corações Lov
+    buscas: ["Três Corações Lov"]
+    incluir: ['(tres|3)\s*coracoes', '\blov\b']
+
+  - nome: Três Corações Luna
+    buscas: ["Três Corações Luna"]
+    incluir: ['(tres|3)\s*coracoes', '\bluna\b']
+
+  - nome: Três Corações Passione
+    buscas: ["Três Corações Passione"]
+    incluir: ['(tres|3)\s*coracoes', 'passione']
