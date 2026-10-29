@@ -1,6 +1,6 @@
 {
-  "ultima_execucao_utc": "2026-10-26T22:10:01.448647+00:00",
-  "ultima_execucao_local": "26/10/2026 19:10",
+  "ultima_execucao_utc": "2026-10-29T17:30:04.940501+00:00",
+  "ultima_execucao_local": "29/10/2026 14:30",
   "sites": {
     "Mercado Livre": {
       "anuncios": 0,
@@ -11,10 +11,8 @@
       ]
     },
     "Amazon": {
-      "anuncios": 34,
-      "erros": [
-        "Nespresso Essenza Mini: 0 resultados (título da página: 'Amazon.com.br Algo deu errado') — possível bloqueio ou seletor desatualizado"
-      ]
+      "anuncios": 43,
+      "erros": []
     },
     "Casas Bahia": {
       "anuncios": 0,
