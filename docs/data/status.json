@@ -1,6 +1,6 @@
 {
-  "ultima_execucao_utc": "2026-11-02T18:34:48.274541+00:00",
-  "ultima_execucao_local": "02/11/2026 15:34",
+  "ultima_execucao_utc": "2026-11-04T18:39:50.013091+00:00",
+  "ultima_execucao_local": "04/11/2026 15:39",
   "sites": {
     "Mercado Livre": {
       "anuncios": 0,
@@ -11,7 +11,7 @@
       ]
     },
     "Amazon": {
-      "anuncios": 42,
+      "anuncios": 43,
       "erros": []
     },
     "Casas Bahia": {
