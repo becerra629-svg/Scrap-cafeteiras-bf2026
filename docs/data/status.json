@@ -1,6 +1,6 @@
 {
-  "ultima_execucao_utc": "2026-11-24T21:10:31.561021+00:00",
-  "ultima_execucao_local": "24/11/2026 18:10",
+  "ultima_execucao_utc": "2026-11-26T20:11:00.614913+00:00",
+  "ultima_execucao_local": "26/11/2026 17:11",
   "sites": {
     "Mercado Livre": {
       "anuncios": 0,
@@ -11,8 +11,12 @@
       ]
     },
     "Amazon": {
-      "anuncios": 40,
-      "erros": []
+      "anuncios": 15,
+      "erros": [
+        "Nespresso Essenza Mini: 0 resultados (título da página: 'Amazon.com.br Algo deu errado') — possível bloqueio ou seletor desatualizado",
+        "Nespresso Vertuo Pop: 0 resultados (título da página: 'Amazon.com.br Algo deu errado') — possível bloqueio ou seletor desatualizado",
+        "Dolce Gusto Mini Me: 0 resultados (título da página: 'Amazon.com.br Algo deu errado') — possível bloqueio ou seletor desatualizado"
+      ]
     },
     "Casas Bahia": {
       "anuncios": 0,
